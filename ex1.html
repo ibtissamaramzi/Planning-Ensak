@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <title>Formulaire</title>
+        <meta charset= " utf-8" / >
+    </head>
+    <body bgcolor="#2874A6" text="white" link="white" alink="white" vlink="white">
+        <form>
+            <h1>Formulaire d'inscription</h1>
+            <fieldset>
+                <legend>informations personnelles</legend>
+                <table border="0" width="100%" align="center">
+                    <tr>
+                      <td ><label for="civilité">Civilité</label></td>
+                    
+                <td >
+                    
+                      <input type="radio" name="Mmlle" value="M1" size="40">
+                      <label for="Mmlle">Mademoiselle</label>
+                     
+                        <input type="radio" name="Mmlle" value="M2" size="40" checked>
+                        <label for="Mmlle">Madame</label>
+                       
+                       <input type="radio" name="Mmlle" value="M3" size="40">
+                       <label for="Mmlle">Monsieur</label>
+                </td>
+                    
+                    </tr>
+                    <tr>
+                        <td ><label for="apg">N Apogee</label></td>
+                        <td><input type="text" name="apg" size="40"></td>
+
+                    </tr>
+                    <tr>
+                        <td ><label for="nom">Nom</label></td>
+                        <td ><input type="text" name="nom" size="40"></td>
+                    </tr>
+                    <tr>
+                        <td ><label for="Prénom">Prénom</label></td>
+                        <td><input type="text" name="Prénom" size="40"></td>
+                    </tr>
+                    <tr>
+                        <td ><label for="date_naissance">Date de naissance</label> </td>
+                        <td><input type="date" name="date_naissance" ></td>
+                    </tr>
+                    <tr>
+                        <td ><label for="mail">Adresse Mail</label></td>
+                        <td><input type="email" name="mail" ></td>
+                    </tr>
+                    <tr>
+                        <td ><label for="code_postal">Adresse Postale</label></td>
+                        <td ><textarea name="adresse_postale" cols="50" rows="2" placeholder="Rue N1"></textarea>
+                        <tr>
+                            <td ><label for="ville">Ville</label></td>
+                            <td><select name="ville" size="1">
+                                <option value="Kenitra">Kenitra</option>
+                                <option value="Rabat">Rabat</option>
+                                <option value="casablanca">casablanca</option>
+                                <option value="El jadida">El jadida</option>
+                                
+                            </select>
+                            </td>
+                        </tr> 
+                        <tr>
+                            <td ><label for="postal">Code Postal</label></td>
+                            <td><input type="text" name="postal" size="10"  placeholder="14">
+                            <input type="text" name="postal" size="20"  placeholder="00"></td>
+                        </tr> 
+                        <tr>
+                            <td ><label for="Photo">Photo</label></td>
+                            <td><input type="file" name="Photo"></td>
+                        </tr>  
+                        <tr>
+                            <td ><label for="langages">langages</label></td>
+                           <td><input type="checkbox" name="langages" value="PYTHON" checked>
+                            <label for="langages">PYTHON</label>
+                            <input type="checkbox" name="langages" value="C" checked>
+                            <label for="langages">C</label>
+                            <input type="checkbox" name="langages" value="JAVA" >
+                            <label for="langages">JAVA</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td ><label for="systeme_exploitation">Systeme d'exploitation</label></td>
+                            <td><select name="systeme_exploitation" size="3" multiple>
+                                <option selected >Windows 2012 server</option>
+                                <option >Linux centOS</option>
+                                <option selected>HP-US</option>
+
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td ><label for="niveau_html">Niveau en html</label></td>
+                            <td><input type="range" name="niveau_html" min="0" max="10"></td>
+                        </tr>
+
+
+                    
+                </table>
+                <input type="submit" name="Prévisualiser" value="Prévisualiser">
+                <input type="submit" name="validatin" value="soumettre formulaire">
+                <input type="reset" name="effacement " value="effacer">
+
+            </fieldset>
+        </form>
+    </body>
+</html>
